@@ -70,7 +70,7 @@ nav ul li a:hover{
 .homepage .welcome-homepage{
     text-align: center;
     padding: 10px 50px;
-    margin: 50px;
+    margin: 30px;
     margin-left: 50px;
 }
 
@@ -138,9 +138,7 @@ footer{
             justify-content: center;
             align-items: center;
             background-color: #03506F;
-            margin-top: 50px;
-            
-
+            margin-top: 60px;
 }
 
 footer img{
@@ -178,7 +176,7 @@ footer p{
     
 }
 .card-menu{
-    margin-top: -40px;
+    margin-top: -10px;
 }
 .card-menu ul {
     display: flex;
@@ -338,11 +336,11 @@ footer p{
 .profile{
     display: flex;
     justify-content: center;
-    
+    margin-top: -20px;
 }
 .desc-profile{
     font-size: 12px;
-    margin: 0 50px 0;
+    margin: 30px 50px 50px 50px;
     text-align: justify;
     text-indent: 0.5in;
 }
