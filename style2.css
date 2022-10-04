@@ -33,7 +33,6 @@ nav{
 
 }
 
-
 nav ul{
     display: flex;
 }
@@ -51,6 +50,22 @@ nav ul li a:hover{
     background-color: #03506F;
     color: #EBEBEB;
 }
+/* index*/
+
+.home {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px 50px;
+    margin: 50px;
+    margin-left: 50px;
+}
+
+.welcome-home p {
+    font-size: 12px;
+}
+
+/* home*/
 
 .homepage .welcome-homepage{
     text-align: center;
@@ -70,17 +85,17 @@ nav ul li a:hover{
     font-size: 12px;
 }
 
-.button-home a{
-    display: flex;
-    border-radius: 5px;
+.button-home li{
+    
     margin-top: 20px;
-    margin-left: -10px;
 }
+
 
 li .button1{
     padding: 5px 30px;
     background-color: #03506F;
-    color: #FFE3D8;
+    color: #EBEBEB;
+    border-radius: 5px;
 
 }
 
