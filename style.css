@@ -28,7 +28,6 @@ nav{
     justify-content: center;
     padding: 10px 0px;
     font-weight: 600;
-    font-size: 12px;
     margin-top: 10px;
 
 }
@@ -57,12 +56,12 @@ nav ul li a:hover{
     align-items: flex-start;
     justify-content: center;
     padding: 10px 50px;
-    margin: 50px;
-    margin-left: 50px;
+    margin: 100px 50px 50px 50px;
 }
 
-.welcome-home p {
-    font-size: 12px;
+.welcome-home h1 {
+    font-size: 48px;
+    margin-bottom: -10px;
 }
 
 /* home*/
@@ -70,23 +69,20 @@ nav ul li a:hover{
 .homepage .welcome-homepage{
     text-align: center;
     padding: 10px 50px;
-    margin: 30px;
+    margin: 50px;
     margin-left: 50px;
+    font-size: 20px;
 }
 
 .welcome-homepage p {
-    font-size: 12px;
     margin-top: 20px;
 }
 
-
 .button-home {
     font-weight: 600;
-    font-size: 12px;
 }
 
 .button-home li{
-    
     margin-top: 20px;
 }
 
@@ -125,11 +121,11 @@ li .button2{
 
 footer{
     /*
-            Property utama agar Footer tetap berada dibawah.
-            */
-            position: relative;
+    Property utama agar Footer tetap berada dibawah.*/
+            position: absolute;
             bottom: 0;
             width: 100%;
+            
 
             /*
                 Property tambahan agar text di dalam Footer berada di tengah.
@@ -138,23 +134,42 @@ footer{
             justify-content: center;
             align-items: center;
             background-color: #03506F;
-            margin-top: 60px;
+            
 }
 
-footer img{
-    margin-right: -10px;
-    margin-top: 10px;
-}
 footer p{
-    margin: 10px;
+    margin: 20px;
     color: #EBEBEB;
-    font-size: 10px;
+    font-size: 12px;
 }
 
+.footer{
+    /*
+    Property utama agar Footer tetap berada dibawah.*/
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            top: 50px;
+
+            /*
+                Property tambahan agar text di dalam Footer berada di tengah.
+            */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #03506F;
+            
+}
+
+.footer p{
+    margin: 20px 20px 20px 20px;
+    color: #EBEBEB;
+    font-size: 12px;
+}
 .card-view{
     border: 1px solid #03506F;
-    width: 195px; 
-    height: 160px;
+    width: 220px; 
+    height: 180px;
     background-color: #03506F;
     border-radius: 5px;
     color: #EBEBEB;
@@ -164,14 +179,14 @@ footer p{
 }
 
 .card-view img{
-    height:110px;
+    height:120px;
+    width: 220px ;
     border-radius: 5px 5px 0 0;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
 }
 
 .card-view a{
     color: #EBEBEB;
-    font-size: 12px;
     font-weight: 600;
     
 }
@@ -189,8 +204,8 @@ footer p{
 /** portofolio **/
 .card-view-porto{
     border: 1px solid #03506F;
-    width: 300px; 
-    height: 120px;
+    width: 350px; 
+    height: 150px;
     background-color: #03506F;
     border-radius: 5px;
     color: #EBEBEB;
@@ -201,14 +216,14 @@ footer p{
 }
 
 .card-view-porto img{
-    height:120px;
-    width: 130px;
+    height:150px;
+    width: 150px;
     border-radius: 5px 0px 0 5px;
 }
 
 .card-view-porto a {
     color: #EBEBEB;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
     margin: 10px;
 }
@@ -216,13 +231,13 @@ footer p{
 .card-view-porto p{
     margin: 10px;
     color: #EBEBEB;
-    font-size: 8px;
+    font-size: 12px;
 }
 
 
 .card-menu-porto ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .card-menu-porto ul li{
@@ -235,7 +250,6 @@ footer p{
     justify-content: center;
     padding: 10px 0px;
     font-weight: 600;
-    font-size: 12px;
     margin-top: 10px;
 
 }
@@ -271,22 +285,25 @@ footer p{
 .blog-homepage .welcome-homepage{
     text-align: center;
     padding: 10px 50px;
-    margin: 50px;
-    margin-left: 230px;
+    margin: 80px;
+    margin-left: 250px;
     position: absolute;
 	top: 40px;
 	z-index: 2;
 }
 
+.welcome-homepage h1 {
+    font-size: 48px;
+}
+
 .welcome-homepage p {
-    font-size: 12px;
     margin-top: 20px;
 }
 
 .card-view-blog{
     border: 1px solid #03506F;
-    width: 400px; 
-    height: 120px;
+    width: 450px; 
+    height: 190px;
     background-color: #03506F;
     border-radius: 5px;
     color: #EBEBEB;
@@ -297,50 +314,45 @@ footer p{
 }
 
 .card-view-blog img{
-    height:120px;
-    width: 130px;
+    height:190px;
+    width: 190px;
     border-radius: 5px 0px 0 5px;
 }
 
 .card-view-blog a {
     color: #EBEBEB;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
 }
 
 .card-view-blog p{
     color: #EBEBEB;
-    font-size: 8px;
+    font-size: 12px;
     margin-top: 10px;
 }
 
 
 .card-menu-blog ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .card-menu-blog ul li{
     margin: 20px;
 }
 
+
 .desc{
     margin: 10px ;
 }
 
 /* profile*/
-.name-profile{
-    font-size: 12px;
-}
-
 .profile{
     display: flex;
     justify-content: center;
-    margin-top: -20px;
 }
 .desc-profile{
-    font-size: 12px;
-    margin: 30px 50px 50px 50px;
+    margin: 50px 50px 50px 50px;
     text-align: justify;
     text-indent: 0.5in;
 }
