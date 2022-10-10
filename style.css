@@ -284,9 +284,8 @@ footer p{
 
 .blog-homepage .welcome-homepage{
     text-align: center;
-    padding: 10px 50px;
+    padding: 70px 350px;
     margin: 80px;
-    margin-left: 250px;
     position: absolute;
 	top: 40px;
 	z-index: 2;
@@ -357,10 +356,12 @@ footer p{
 .profile{
     display: flex;
     justify-content: center;
+    font-size: 12px;
 }
 .desc-profile{
     margin: 50px 50px 50px 50px;
     text-align: justify;
     text-indent: 0.5in;
+    font-size: 12px;
 }
 
