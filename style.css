@@ -346,6 +346,13 @@ footer p{
     margin: 10px ;
 }
 
+.desc-blog {
+    text-align: justify; 
+    text-indent: 0.3in;
+    font-size: 12px;
+    margin: 30px;
+}
+
 /* profile*/
 .profile{
     display: flex;
